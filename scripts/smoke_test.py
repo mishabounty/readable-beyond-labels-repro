@@ -19,8 +19,6 @@ def json_files(path: Path):
 def main() -> None:
     required = [
         ROOT / "README.md",
-        ROOT / "manuscript" / "main.tex",
-        ROOT / "manuscript" / "article.pdf",
         ROOT / "experiments" / "cem" / "probe_heldout.py",
         ROOT / "experiments" / "hicem" / "hicem_checks3.py",
         ROOT / "experiments" / "dreamsim" / "eval_b.py",

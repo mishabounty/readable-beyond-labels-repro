@@ -1,6 +1,6 @@
 # Reproducibility package
 
-This repository contains the code, compact result files, and manuscript source for the experiments reported in
+This repository contains the code and compact result files for the experiments reported in
 **Readable beyond the labels? Re-examining claims about human concept supervision**.
 
 The package is deliberately small. It includes analysis scripts and the final JSON/JSONL outputs, but it does not
@@ -15,8 +15,7 @@ The `results/` tree contains the compact outputs used for the paper's tables and
 * `results/hicem/` — HiCEM/Concept Splitting checks and matched null results;
 * `results/dreamsim/` — DreamSim evaluation summaries for human, shuffled, anti-human, and random-projection labels.
 
-The bundled manuscript is in `manuscript/`. `manuscript/article.pdf` is the rendered reading version; the editable
-source is `manuscript/main.tex` with `references.bib`, `supplement.tex`, and `catalog.tex`.
+The English manuscript is intentionally not included yet. It will be added after translation and editorial review.
 
 Run the lightweight integrity check from the repository root:
 
@@ -34,10 +33,8 @@ experiments/cem/          CEM training, label controls, probes, and analyses
 experiments/hicem/        HiCEM controls, configs, and analyses
 experiments/dreamsim/     DreamSim label variants and evaluation scripts
 experiments/goemotions/   GoEmotions/text controls and probe analyses
-experiments/literature/   Literature-review evidence and extraction manifest
 upstream/                 Minimal source snapshots of the three external codebases
 results/                  Compact numerical outputs; no checkpoints or datasets
-manuscript/               TMLR-style LaTeX source and rendered PDF
 data/                     Data provenance and download instructions
 environment/              Analysis and full-training dependency lists
 scripts/                  Release and integrity checks
@@ -76,9 +73,8 @@ weights must be downloaded separately; see `data/README.md`.
 ### GoEmotions and text controls
 
 `experiments/goemotions/` contains the complete set of small Python modules needed by the reported text analyses,
-including the conditional probes, ridge probes, collapse checks, and spurious-control test. The original experiment
-notes remain in `README_original.md`. Raw text and embedding caches are excluded; the public GoEmotions release is
-specified in `data/README.md`.
+including the conditional probes, ridge probes, collapse checks, and spurious-control test. Raw text and embedding
+caches are excluded; the public GoEmotions release is specified in `data/README.md`.
 
 ## Environment
 
@@ -95,18 +91,11 @@ installation, and the upstream model-specific dependencies. Exact GPU drivers an
 part of the scientific result. The original execution host was a Linux server; no server path is required by the
 scripts after data and model paths are configured.
 
-To build the manuscript, install LuaLaTeX/BibTeX and run:
-
-```bash
-cd manuscript
-./build.sh
-```
-
 ## Scope and limitations
 
-The numerical files are frozen snapshots of the runs used in the manuscript. The literature folder records the search
-and extraction protocol and the evidence table; it is a bounded review, not a claim about every paper in the field.
-The review's prevalence counts should therefore be read as conditional on the stated search and inclusion criteria.
+The numerical files are frozen snapshots of the runs used in the manuscript. The repository is a code-and-results
+release; the English manuscript will be added in a later commit. Large datasets, model weights, checkpoints, and
+training logs are intentionally excluded.
 
 Third-party source snapshots retain their upstream license files where applicable. The license for the paper-specific
 code and the final repository should be selected before the GitHub repository is made public; no license is silently
