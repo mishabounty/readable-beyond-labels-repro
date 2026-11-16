@@ -1,0 +1,47 @@
+{
+ "0": {
+  "distinct_real": 185,
+  "distinct_placebo4": 200,
+  "rate_real": 0.19482142857142856,
+  "rate_placebo4": 0.5003571428571428,
+  "phi_real": 0.1349515479014207,
+  "phi_placebo4": 0.058120182966829574,
+  "agree_with_real": 0.4955357142857143
+ },
+ "1": {
+  "distinct_real": 176,
+  "distinct_placebo4": 200,
+  "rate_real": 0.20946428571428571,
+  "rate_placebo4": 0.48857142857142855,
+  "phi_real": 0.1374571070599255,
+  "phi_placebo4": 0.05610152540419372,
+  "agree_with_real": 0.5076785714285714
+ },
+ "2": {
+  "distinct_real": 153,
+  "distinct_placebo4": 200,
+  "rate_real": 0.20160714285714285,
+  "rate_placebo4": 0.5007142857142857,
+  "phi_real": 0.15758884083539793,
+  "phi_placebo4": 0.0585417604818565,
+  "agree_with_real": 0.48625
+ },
+ "3": {
+  "distinct_real": 170,
+  "distinct_placebo4": 200,
+  "rate_real": 0.17767857142857144,
+  "rate_placebo4": 0.5103571428571428,
+  "phi_real": 0.12955566799540696,
+  "phi_placebo4": 0.05862148222997318,
+  "agree_with_real": 0.5026785714285714
+ },
+ "4": {
+  "distinct_real": 180,
+  "distinct_placebo4": 200,
+  "rate_real": 0.21696428571428572,
+  "rate_placebo4": 0.5007142857142857,
+  "phi_real": 0.16499295451838003,
+  "phi_placebo4": 0.05718936019676948,
+  "agree_with_real": 0.5008928571428571
+ }
+}

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.npz
+*.npy
+data/raw/
+data/cache/
+logs/
+wandb/
+lightning_logs/
+.DS_Store

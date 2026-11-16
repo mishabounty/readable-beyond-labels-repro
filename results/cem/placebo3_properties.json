@@ -1,0 +1,197 @@
+{
+ "0": {
+  "real": {
+   "pos_rate": 0.19482142857142856,
+   "distinct_sets": 185,
+   "mean_abs_phi": 0.13495154790062647,
+   "predict_from_appearance_AP": 0.6367522306922699,
+   "leak_AP_of_B": 0.6031226280515719,
+   "chance_B": 0.2080357142857143,
+   "max_phi_with_real": null
+  },
+  "placebo": {
+   "pos_rate": 0.19482142857142856,
+   "distinct_sets": 199,
+   "mean_abs_phi": 0.05159368993574255,
+   "predict_from_appearance_AP": 0.2215157316986305,
+   "leak_AP_of_B": 0.21186538813055028,
+   "chance_B": 0.2080357142857143,
+   "max_phi_with_real": 0.19504510354423715
+  },
+  "placebo2": {
+   "pos_rate": 0.19482142857142856,
+   "distinct_sets": 185,
+   "mean_abs_phi": 0.13495154790062647,
+   "predict_from_appearance_AP": 0.20200276705601675,
+   "leak_AP_of_B": 0.20127561468484462,
+   "chance_B": 0.2080357142857143,
+   "max_phi_with_real": 0.18690936521327878
+  },
+  "placebo3": {
+   "pos_rate": 0.19482142857142856,
+   "distinct_sets": 192,
+   "mean_abs_phi": 0.115775962794376,
+   "predict_from_appearance_AP": 0.6927319831706862,
+   "leak_AP_of_B": 0.39539806753368884,
+   "chance_B": 0.2080357142857143,
+   "max_phi_with_real": 0.36338784536252494
+  },
+  "agreement_with_real": 0.7164285714285714
+ },
+ "1": {
+  "real": {
+   "pos_rate": 0.20946428571428571,
+   "distinct_sets": 176,
+   "mean_abs_phi": 0.13745710705916814,
+   "predict_from_appearance_AP": 0.6719466135984759,
+   "leak_AP_of_B": 0.602640384954603,
+   "chance_B": 0.2031547619047619,
+   "max_phi_with_real": null
+  },
+  "placebo": {
+   "pos_rate": 0.20946428571428571,
+   "distinct_sets": 199,
+   "mean_abs_phi": 0.05787323842492453,
+   "predict_from_appearance_AP": 0.22700131964472708,
+   "leak_AP_of_B": 0.20833413130477116,
+   "chance_B": 0.2031547619047619,
+   "max_phi_with_real": 0.19136185351334206
+  },
+  "placebo2": {
+   "pos_rate": 0.20946428571428571,
+   "distinct_sets": 176,
+   "mean_abs_phi": 0.13745710705916814,
+   "predict_from_appearance_AP": 0.2217544145576189,
+   "leak_AP_of_B": 0.19887286412929348,
+   "chance_B": 0.2031547619047619,
+   "max_phi_with_real": 0.19845547019305435
+  },
+  "placebo3": {
+   "pos_rate": 0.20946428571428571,
+   "distinct_sets": 190,
+   "mean_abs_phi": 0.12362211208649729,
+   "predict_from_appearance_AP": 0.7358185596162361,
+   "leak_AP_of_B": 0.37320250376431274,
+   "chance_B": 0.2031547619047619,
+   "max_phi_with_real": 0.3696808549196399
+  },
+  "agreement_with_real": 0.7164285714285714
+ },
+ "2": {
+  "real": {
+   "pos_rate": 0.20160714285714285,
+   "distinct_sets": 153,
+   "mean_abs_phi": 0.15758884083442645,
+   "predict_from_appearance_AP": 0.6654213027508724,
+   "leak_AP_of_B": 0.5858997669155823,
+   "chance_B": 0.20577380952380953,
+   "max_phi_with_real": null
+  },
+  "placebo": {
+   "pos_rate": 0.20160714285714285,
+   "distinct_sets": 198,
+   "mean_abs_phi": 0.055862713849250664,
+   "predict_from_appearance_AP": 0.21574885264676896,
+   "leak_AP_of_B": 0.2113304136148269,
+   "chance_B": 0.20577380952380953,
+   "max_phi_with_real": 0.20049773951615896
+  },
+  "placebo2": {
+   "pos_rate": 0.20160714285714285,
+   "distinct_sets": 153,
+   "mean_abs_phi": 0.15758884083442645,
+   "predict_from_appearance_AP": 0.20908590994785817,
+   "leak_AP_of_B": 0.19019720295428955,
+   "chance_B": 0.20577380952380953,
+   "max_phi_with_real": 0.1939872264454824
+  },
+  "placebo3": {
+   "pos_rate": 0.20160714285714285,
+   "distinct_sets": 172,
+   "mean_abs_phi": 0.11861206338095409,
+   "predict_from_appearance_AP": 0.6771009949949474,
+   "leak_AP_of_B": 0.3783824340485698,
+   "chance_B": 0.20577380952380953,
+   "max_phi_with_real": 0.34529681168985016
+  },
+  "agreement_with_real": 0.7510714285714286
+ },
+ "3": {
+  "real": {
+   "pos_rate": 0.17767857142857144,
+   "distinct_sets": 170,
+   "mean_abs_phi": 0.12955566799461318,
+   "predict_from_appearance_AP": 0.6288908108817591,
+   "leak_AP_of_B": 0.5964418538873938,
+   "chance_B": 0.21375,
+   "max_phi_with_real": null
+  },
+  "placebo": {
+   "pos_rate": 0.17767857142857144,
+   "distinct_sets": 198,
+   "mean_abs_phi": 0.05478249933118264,
+   "predict_from_appearance_AP": 0.17688501200344237,
+   "leak_AP_of_B": 0.21129538779962082,
+   "chance_B": 0.21375,
+   "max_phi_with_real": 0.19671012114486466
+  },
+  "placebo2": {
+   "pos_rate": 0.17767857142857144,
+   "distinct_sets": 170,
+   "mean_abs_phi": 0.1295556679946132,
+   "predict_from_appearance_AP": 0.18058865578168604,
+   "leak_AP_of_B": 0.21770444189900526,
+   "chance_B": 0.21375,
+   "max_phi_with_real": 0.18381352794168557
+  },
+  "placebo3": {
+   "pos_rate": 0.17767857142857144,
+   "distinct_sets": 176,
+   "mean_abs_phi": 0.13850680611351987,
+   "predict_from_appearance_AP": 0.691454498428186,
+   "leak_AP_of_B": 0.41022747235960244,
+   "chance_B": 0.21375,
+   "max_phi_with_real": 0.40273409884356626
+  },
+  "agreement_with_real": 0.7392857142857143
+ },
+ "4": {
+  "real": {
+   "pos_rate": 0.21696428571428572,
+   "distinct_sets": 180,
+   "mean_abs_phi": 0.1649929545174973,
+   "predict_from_appearance_AP": 0.6431129305948499,
+   "leak_AP_of_B": 0.5909335964498694,
+   "chance_B": 0.2006547619047619,
+   "max_phi_with_real": null
+  },
+  "placebo": {
+   "pos_rate": 0.21696428571428572,
+   "distinct_sets": 200,
+   "mean_abs_phi": 0.05561285313345375,
+   "predict_from_appearance_AP": 0.22644235598703596,
+   "leak_AP_of_B": 0.19032675932850754,
+   "chance_B": 0.2006547619047619,
+   "max_phi_with_real": 0.18290308732393193
+  },
+  "placebo2": {
+   "pos_rate": 0.21696428571428572,
+   "distinct_sets": 180,
+   "mean_abs_phi": 0.16499295451749732,
+   "predict_from_appearance_AP": 0.24126582207514688,
+   "leak_AP_of_B": 0.1970615428315698,
+   "chance_B": 0.2006547619047619,
+   "max_phi_with_real": 0.1823055989272175
+  },
+  "placebo3": {
+   "pos_rate": 0.21696428571428572,
+   "distinct_sets": 187,
+   "mean_abs_phi": 0.15857045883686716,
+   "predict_from_appearance_AP": 0.7366797282452792,
+   "leak_AP_of_B": 0.3779676161906601,
+   "chance_B": 0.2006547619047619,
+   "max_phi_with_real": 0.3712515009725112
+  },
+  "agreement_with_real": 0.7192857142857143
+ }
+}

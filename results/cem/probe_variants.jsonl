@@ -1,0 +1,5 @@
+{"model": "pretrained_resnet34", "fold": 0, "dim": 512, "mean_abs": 0.7431572675704956, "max_abs": 10.496376991271973, "acc_c1_it100": 0.8602392458536746, "not_conv_it100": 84, "acc_c1_it5000": 0.85965366471062, "not_conv_it5000": 0}
+{"model": "cem", "fold": 0, "dim": 448, "mean_abs": 1.7158536911010742, "max_abs": 64.05191040039062, "acc_c1_it100": 0.9525083419629503, "not_conv_it100": 84, "acc_c1_it5000": 0.952346022979437, "not_conv_it5000": 0}
+{"model": "placebo", "fold": 0, "dim": 448, "mean_abs": 1.7829188108444214, "max_abs": 40.09195327758789, "acc_c1_it100": 0.9469874418528198, "not_conv_it100": 84, "acc_c1_it5000": 0.9473326265266202, "not_conv_it5000": 0}
+{"model": "hybrid", "fold": 0, "dim": 476, "mean_abs": 1.6176912784576416, "max_abs": 38.06275177001953, "acc_c1_it100": 0.9436979140983285, "not_conv_it100": 84, "acc_c1_it5000": 0.9461265348389961, "not_conv_it5000": 0}
+{"model": "noconcept", "fold": 0, "dim": 476, "mean_abs": 1.1569609642028809, "max_abs": 9.212103843688965, "acc_c1_it100": 0.9203548005325706, "not_conv_it100": 84, "acc_c1_it5000": 0.9218958035406084, "not_conv_it5000": 0}

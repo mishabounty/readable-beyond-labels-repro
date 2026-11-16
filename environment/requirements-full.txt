@@ -1,0 +1,12 @@
+# Start with requirements-analysis.txt, then install a CUDA-compatible PyTorch.
+torch==2.5.1
+torchvision==0.20.1
+torch-geometric==2.6.1
+torchmetrics==0.11.4
+pytorch-lightning==2.0.4
+transformers==4.36.2
+sentence-transformers==2.2.2
+datasets==2.16.1
+sentencepiece==0.1.99
+nltk==3.8.1
+tqdm==4.66.5
